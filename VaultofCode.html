@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="VaultofCode.css">
+    <title>Internship Programs | VaultofCodes</title>
+    <style>
+        /* Add this CSS style for the logo */
+        .logo {
+            display: block;
+            width: 100px; /* Adjust the width as needed */
+            height: auto; /* Maintains aspect ratio */
+            margin: 10px 20px; /* Adjust the margins for positioning */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Add your company logo here -->
+        <img src="https://vaultofcodes.com/cdn/shop/files/Screenshot_2023-07-03_195329_b5864d7b-c233-44e9-a337-4200479661a3.png?v=1688394314&width=180" alt="VaultofCodes" class="logo">
+        
+        <nav>
+            <ul>
+                <li><a href="#web-dev-program">Web Development</a></li>
+                <li><a href="#app-dev-program">App Development</a></li>
+                <li><a href="#python-program">Python Programming</a></li>
+                <li><a href="#java-program">Java Programming</a></li>
+                <li><a href="#design-program">Canva Designing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="web-dev-program" class="program">
+            <h2>Web Development Internship</h2>
+            <p>Duration: 1 Month</p>
+            <p>Location: Remote</p>
+            <p>Stipend: Unpaid</p>
+            <p>Start Date: 5 Oct 2023</p>
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
+            <button class="cta-button" onclick="validateForm()">Apply Now</button>
+        </section>
+
+        <!-- Repeat similar sections for other internship programs -->
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Refund Policy</a></li>
+            <li><a href="#">Shipping Policy</a></li>
+        </ul>
+        <p>&copy; 2023, VaultofCodes</p>
+    </footer>
+
+    <script>
+        // JavaScript for smooth scrolling when clicking on navigation links
+        function smoothScroll(target) {
+            const element = document.querySelector(target);
+            window.scroll({
+                behavior: 'smooth',
+                left: 0,
+                top: element.offsetTop - 50 // Adjust the offset as needed
+            });
+        }
+
+        // JavaScript for form validation
+        function validateForm() {
+            // You can add more complex validation logic here
+            alert("Application submitted successfully!"); // For demonstration purposes
+        }
+    </script>
+</body>
+</html>
